@@ -1,152 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-
+/********************************************************************/
 * {
     margin: 0;
     box-sizing: border-box;
-
 }
-
-.navbar1 {
-
-    color: black;
-    width: 60%;
-
-    margin-left: 80px;
-
-    display: flex;
-
-}
-
-ul li {
-    padding: 20px;
-    display: flex;
-}
-
-ul li :hover {
-    background-color: antiquewhite;
-    color: black;
-    border-radius: 5px;
-}
-
-ul li a {
-    text-decoration: none;
-    color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
+/********************************************************************/
 .container1 {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
 }
+.navbar1 {
+    color: black;
+    width: 60%;
+    margin-left: 80px;
+    display: flex;
+}
+ul li {
+    display: flex;
+}
+ul li  :hover {
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 5px; 
+}
+ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+/********************************************************************/
 
-
+.container2 ol {
+    background-color: antiquewhite;
+    padding: 20px;
+    display: flex;
+}
+ol li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin: 10px;
+}
+ol li {
+    padding: 0 2vw;
+    list-style: none;
+}
+ol li :hover {
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 5px;
+}
 ol li+li:before {
     padding: 7px;
     color: black;
     content: "/\00a0";
     font-weight: bolder;
-
 }
-
-.container2 ol {
-
-    background-color: antiquewhite;
-    padding: 20px;
-    display: flex;
-
-}
-
-ol li a {
-    color: black;
-    text-decoration: none;
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
-ol li :hover {
-
-    background-color: black;
-    color: antiquewhite;
-    border-radius: 5px;
-}
-
-ol li {
-    padding: 0 2vw;
-    list-style: none;
-
-}
-
+/********************************************************************/
 article {
     color: #000;
     text-align: left;
     padding: 10px 20px;
-
 }
-
 article h1 {
     color: rgb(30, 27, 27);
     font-family: 'Times New Roman', Times, serif;
     padding: 0 20px;
 }
-
 article p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0 20px;
 }
-
-
+/********************************************************************/
 .carte {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
     justify-content: space-around;
-
-
 }
-
 img {
     width: 250px;
     height: auto;
     padding: 10 10px;
     border: 5px solid rgb(246, 230, 230);
     box-shadow: 5px 0px 8px 10px #f9dcdc;
-
 }
-
 div h4 {
     text-align: left;
     margin-top: 10px;
-
 }
-
 div h6 {
     text-align: left;
     color: green;
     font-size: medium;
     margin-top: 10px;
-
 }
-
 div h5 {
     text-align: left;
     color: gray;
     margin-top: 10px;
-
 }
-
+/********************************************************************/
 footer {
     background-color: antiquewhite;
     height: 80px;
     text-align: center;
-    font: size 2px;
-    ;
-
+    font-size: 2px; 
 }
-
 pre {
     font-family: 'Dancing Script', 'cursive';
-
 }
